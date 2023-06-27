@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #114100;
+  font-family: "Poppins", sans-serif;
+}
+/*evita que se salga del contenedor*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper-button-prev::after{
+    font-size: 25px;
+}
+.swiper-button-next::after{
+    font-size: 25px;    
+}
+.swiper-button-next{
+    color: #97BF3F;
+}
+.swiper-button-prev{
+    color: #97BF3F;
+}
+.swiper-pagination-bullet{
+    background-color: #D3d2d2;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #97BF3F;
+}
+
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar{
+    display: flex;
+}
+
+.menu-1{
+    margin-right: 180px;
+}
+
+.menu-2{
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-1{
+    width: 0;
+}
+
+.logo-2{
+    width: 200px;
+}
+
+.logo-3{
+    width: 400px;
+}
+
+.socials{
+    display: flex;
+}
+
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #97BF3F;
+    border-radius: 50%;
+}
+
+.social:hover{
+    background-color: #97BF3F;
+}
+
+.social img {
+    margin: 8px 0 0 10px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+   font-size: 18px;
+   padding: 20px;
+   color: #ffffff;
+   display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #D99915;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label{
+    cursor:pointer;
+    display: none;
+}
+
+.header-content{
+    margin-top: 200px;
+    padding-bottom: 50px;
+
+}
+
+.login{
+    display: flex; 
+    align-items: center;
+    margin-top: 1%;
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.login h2{
+    text-align: center;
+}
+
+.casillas{
+    margin-top: 15%;
+
+}
+.boton{
+    display: inline-block;
+    padding: 8px 8px;
+    border: 2px solid #EDF2D4;
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #418101;
+}
+
+.boton:hover {
+    border: 2px, solid #789e37;
+    background-color: #789e37;
+}
+
+.boton a{
+    color: #ffffff;
+}
